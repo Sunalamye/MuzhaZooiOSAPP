@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04FBAB00C322F273B3E88B4 /* Pods_iisi_zoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53C320B870CCDF15F7F0905 /* Pods_iisi_zoo.framework */; };
 		EC4CAE782A6961E200CA2DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAE772A6961E200CA2DA0 /* AppDelegate.swift */; };
 		EC4CAE7A2A6961E200CA2DA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAE792A6961E200CA2DA0 /* SceneDelegate.swift */; };
 		EC4CAE7C2A6961E200CA2DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAE7B2A6961E200CA2DA0 /* ViewController.swift */; };
 		EC4CAE7F2A6961E200CA2DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4CAE7D2A6961E200CA2DA0 /* Main.storyboard */; };
 		EC4CAE812A6961E500CA2DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4CAE802A6961E500CA2DA0 /* Assets.xcassets */; };
 		EC4CAE842A6961E500CA2DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4CAE822A6961E500CA2DA0 /* LaunchScreen.storyboard */; };
+		EC4CAEA12A6965CB00CA2DA0 /* APIManager+Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAE992A6965CB00CA2DA0 /* APIManager+Env.swift */; };
+		EC4CAEA42A6965CB00CA2DA0 /* ZooApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAE9E2A6965CB00CA2DA0 /* ZooApiManager.swift */; };
+		EC4CAEA52A6965CB00CA2DA0 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAE9F2A6965CB00CA2DA0 /* APIResponse.swift */; };
+		EC4CAEA62A6965CB00CA2DA0 /* ZooApiManager+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEA02A6965CB00CA2DA0 /* ZooApiManager+Stub.swift */; };
+		EC4CAEB72A69685400CA2DA0 /* ParkInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEB62A69685400CA2DA0 /* ParkInformation.swift */; };
+		EC4CAEC12A696B2C00CA2DA0 /* URLSession+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEBA2A696B2C00CA2DA0 /* URLSession+.swift */; };
+		EC4CAEC22A696B2C00CA2DA0 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEBB2A696B2C00CA2DA0 /* String+Regex.swift */; };
+		EC4CAEC42A696B2C00CA2DA0 /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEBD2A696B2C00CA2DA0 /* URL+.swift */; };
+		EC4CAEC52A696B2C00CA2DA0 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEBE2A696B2C00CA2DA0 /* String+Localized.swift */; };
+		EC4CAEC62A696B2C00CA2DA0 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEBF2A696B2C00CA2DA0 /* UIImage+.swift */; };
+		EC4CAEC82A696CE500CA2DA0 /* PlantInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEC72A696CE500CA2DA0 /* PlantInformation.swift */; };
+		EC4CAECA2A696D6D00CA2DA0 /* AnimalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CAEC92A696D6D00CA2DA0 /* AnimalData.swift */; };
+		EC9E62482A6972BC0021B5CA /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = EC9E62472A6972BC0021B5CA /* Stevia */; };
+		EC9E625C2A69EB0D0021B5CA /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E625A2A69EA900021B5CA /* Bundle-Decodable.swift */; };
+		EC9E62602A6A5C3C0021B5CA /* iisi_zooAPIsutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E625F2A6A5C3C0021B5CA /* iisi_zooAPIsutTests.swift */; };
+		EC9E62622A6A5C760021B5CA /* iisi_zooAPIshareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E62612A6A5C760021B5CA /* iisi_zooAPIshareTests.swift */; };
+		EC9E62652A6BC2B50021B5CA /* ParkInformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E62642A6BC2B50021B5CA /* ParkInformationCell.swift */; };
+		EC9E62672A6BC6450021B5CA /* ParkInfomationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E62662A6BC6450021B5CA /* ParkInfomationModel.swift */; };
+		EC9E62692A6BC94E0021B5CA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EC9E62682A6BC94E0021B5CA /* Podfile */; };
+		EC9E626D2A6BD09D0021B5CA /* DetailedInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E626C2A6BD09D0021B5CA /* DetailedInformationVC.swift */; };
+		EC9E62702A6BE3C40021B5CA /* PlantInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E626F2A6BE3C40021B5CA /* PlantInformationVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EC9E62512A6973CB0021B5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4CAE6C2A6961E200CA2DA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4CAE732A6961E200CA2DA0;
+			remoteInfo = "iisi-zoo";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9EB3D47D4FCA0C78C670F731 /* Pods-iisi-zoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iisi-zoo.release.xcconfig"; path = "Target Support Files/Pods-iisi-zoo/Pods-iisi-zoo.release.xcconfig"; sourceTree = "<group>"; };
+		E53C320B870CCDF15F7F0905 /* Pods_iisi_zoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iisi_zoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4CAE742A6961E200CA2DA0 /* iisi-zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iisi-zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4CAE772A6961E200CA2DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC4CAE792A6961E200CA2DA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,10 +58,41 @@
 		EC4CAE802A6961E500CA2DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC4CAE832A6961E500CA2DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC4CAE852A6961E500CA2DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4CAE992A6965CB00CA2DA0 /* APIManager+Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIManager+Env.swift"; sourceTree = "<group>"; };
+		EC4CAE9E2A6965CB00CA2DA0 /* ZooApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZooApiManager.swift; sourceTree = "<group>"; };
+		EC4CAE9F2A6965CB00CA2DA0 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		EC4CAEA02A6965CB00CA2DA0 /* ZooApiManager+Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZooApiManager+Stub.swift"; sourceTree = "<group>"; };
+		EC4CAEB62A69685400CA2DA0 /* ParkInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkInformation.swift; sourceTree = "<group>"; };
+		EC4CAEBA2A696B2C00CA2DA0 /* URLSession+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+.swift"; sourceTree = "<group>"; };
+		EC4CAEBB2A696B2C00CA2DA0 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		EC4CAEBD2A696B2C00CA2DA0 /* URL+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+.swift"; sourceTree = "<group>"; };
+		EC4CAEBE2A696B2C00CA2DA0 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		EC4CAEBF2A696B2C00CA2DA0 /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		EC4CAEC72A696CE500CA2DA0 /* PlantInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantInformation.swift; sourceTree = "<group>"; };
+		EC4CAEC92A696D6D00CA2DA0 /* AnimalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalData.swift; sourceTree = "<group>"; };
+		EC9E624D2A6973CB0021B5CA /* iisi-zooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iisi-zooTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9E625A2A69EA900021B5CA /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		EC9E625F2A6A5C3C0021B5CA /* iisi_zooAPIsutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iisi_zooAPIsutTests.swift; sourceTree = "<group>"; };
+		EC9E62612A6A5C760021B5CA /* iisi_zooAPIshareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iisi_zooAPIshareTests.swift; sourceTree = "<group>"; };
+		EC9E62642A6BC2B50021B5CA /* ParkInformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ParkInformationCell.swift; path = ParkView/ParkInformationCell.swift; sourceTree = "<group>"; };
+		EC9E62662A6BC6450021B5CA /* ParkInfomationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkInfomationModel.swift; sourceTree = "<group>"; };
+		EC9E62682A6BC94E0021B5CA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		EC9E626C2A6BD09D0021B5CA /* DetailedInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInformationVC.swift; sourceTree = "<group>"; };
+		EC9E626F2A6BE3C40021B5CA /* PlantInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantInformationVC.swift; sourceTree = "<group>"; };
+		EFAA57A723EA16F8B095D22A /* Pods-iisi-zoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iisi-zoo.debug.xcconfig"; path = "Target Support Files/Pods-iisi-zoo/Pods-iisi-zoo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EC4CAE712A6961E200CA2DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E62482A6972BC0021B5CA /* Stevia in Frameworks */,
+				E04FBAB00C322F273B3E88B4 /* Pods_iisi_zoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E624A2A6973CB0021B5CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16D0D08BFE3700CB1742D63E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA57A723EA16F8B095D22A /* Pods-iisi-zoo.debug.xcconfig */,
+				9EB3D47D4FCA0C78C670F731 /* Pods-iisi-zoo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC4CAE6B2A6961E200CA2DA0 = {
 			isa = PBXGroup;
 			children = (
 				EC4CAE762A6961E200CA2DA0 /* iisi-zoo */,
+				EC9E624E2A6973CB0021B5CA /* iisi-zooTests */,
 				EC4CAE752A6961E200CA2DA0 /* Products */,
+				16D0D08BFE3700CB1742D63E /* Pods */,
+				FAF76F58397F82DEA12B7919 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				EC4CAE742A6961E200CA2DA0 /* iisi-zoo.app */,
+				EC9E624D2A6973CB0021B5CA /* iisi-zooTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +134,12 @@
 		EC4CAE762A6961E200CA2DA0 /* iisi-zoo */ = {
 			isa = PBXGroup;
 			children = (
+				EC9E626A2A6BD0500021B5CA /* View */,
+				EC9E62682A6BC94E0021B5CA /* Podfile */,
+				EC4CAEB82A696B1500CA2DA0 /* Extension */,
+				EC9E62632A6BC1EE0021B5CA /* ParkInfomation */,
+				EC9E626E2A6BE3A00021B5CA /* PlantInformation */,
+				EC4CAE972A6965AA00CA2DA0 /* Common */,
 				EC4CAE772A6961E200CA2DA0 /* AppDelegate.swift */,
 				EC4CAE792A6961E200CA2DA0 /* SceneDelegate.swift */,
 				EC4CAE7B2A6961E200CA2DA0 /* ViewController.swift */,
@@ -67,6 +151,123 @@
 			path = "iisi-zoo";
 			sourceTree = "<group>";
 		};
+		EC4CAE972A6965AA00CA2DA0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CAE982A6965CB00CA2DA0 /* URLRequest */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EC4CAE982A6965CB00CA2DA0 /* URLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CAE9A2A6965CB00CA2DA0 /* APIModel */,
+				EC4CAE992A6965CB00CA2DA0 /* APIManager+Env.swift */,
+				EC4CAE9E2A6965CB00CA2DA0 /* ZooApiManager.swift */,
+				EC4CAE9F2A6965CB00CA2DA0 /* APIResponse.swift */,
+				EC4CAEA02A6965CB00CA2DA0 /* ZooApiManager+Stub.swift */,
+			);
+			path = URLRequest;
+			sourceTree = "<group>";
+		};
+		EC4CAE9A2A6965CB00CA2DA0 /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CAEB32A6967B800CA2DA0 /* Animal data */,
+				EC4CAEB42A6967B800CA2DA0 /* Park information */,
+				EC4CAEB52A6967B800CA2DA0 /* Plant information */,
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
+		EC4CAEB32A6967B800CA2DA0 /* Animal data */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CAEC92A696D6D00CA2DA0 /* AnimalData.swift */,
+			);
+			path = "Animal data";
+			sourceTree = "<group>";
+		};
+		EC4CAEB42A6967B800CA2DA0 /* Park information */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CAEB62A69685400CA2DA0 /* ParkInformation.swift */,
+			);
+			path = "Park information";
+			sourceTree = "<group>";
+		};
+		EC4CAEB52A6967B800CA2DA0 /* Plant information */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CAEC72A696CE500CA2DA0 /* PlantInformation.swift */,
+			);
+			path = "Plant information";
+			sourceTree = "<group>";
+		};
+		EC4CAEB82A696B1500CA2DA0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E625A2A69EA900021B5CA /* Bundle-Decodable.swift */,
+				EC4CAEBE2A696B2C00CA2DA0 /* String+Localized.swift */,
+				EC4CAEBB2A696B2C00CA2DA0 /* String+Regex.swift */,
+				EC4CAEBF2A696B2C00CA2DA0 /* UIImage+.swift */,
+				EC4CAEBD2A696B2C00CA2DA0 /* URL+.swift */,
+				EC4CAEBA2A696B2C00CA2DA0 /* URLSession+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EC9E624E2A6973CB0021B5CA /* iisi-zooTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E62612A6A5C760021B5CA /* iisi_zooAPIshareTests.swift */,
+				EC9E625F2A6A5C3C0021B5CA /* iisi_zooAPIsutTests.swift */,
+			);
+			path = "iisi-zooTests";
+			sourceTree = "<group>";
+		};
+		EC9E62632A6BC1EE0021B5CA /* ParkInfomation */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E626B2A6BD0800021B5CA /* Detailed information */,
+				EC9E62642A6BC2B50021B5CA /* ParkInformationCell.swift */,
+				EC9E62662A6BC6450021B5CA /* ParkInfomationModel.swift */,
+			);
+			path = ParkInfomation;
+			sourceTree = "<group>";
+		};
+		EC9E626A2A6BD0500021B5CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC9E626B2A6BD0800021B5CA /* Detailed information */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E626C2A6BD09D0021B5CA /* DetailedInformationVC.swift */,
+			);
+			path = "Detailed information";
+			sourceTree = "<group>";
+		};
+		EC9E626E2A6BE3A00021B5CA /* PlantInformation */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E626F2A6BE3C40021B5CA /* PlantInformationVC.swift */,
+			);
+			path = PlantInformation;
+			sourceTree = "<group>";
+		};
+		FAF76F58397F82DEA12B7919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E53C320B870CCDF15F7F0905 /* Pods_iisi_zoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,18 +275,41 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC4CAE882A6961E500CA2DA0 /* Build configuration list for PBXNativeTarget "iisi-zoo" */;
 			buildPhases = (
+				19F0F80E0E32EE959D3A628D /* [CP] Check Pods Manifest.lock */,
 				EC4CAE702A6961E200CA2DA0 /* Sources */,
 				EC4CAE712A6961E200CA2DA0 /* Frameworks */,
 				EC4CAE722A6961E200CA2DA0 /* Resources */,
+				08E69457173699DC2E29DDFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "iisi-zoo";
+			packageProductDependencies = (
+				EC9E62472A6972BC0021B5CA /* Stevia */,
+			);
 			productName = "iisi-zoo";
 			productReference = EC4CAE742A6961E200CA2DA0 /* iisi-zoo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EC9E624C2A6973CB0021B5CA /* iisi-zooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9E62532A6973CB0021B5CA /* Build configuration list for PBXNativeTarget "iisi-zooTests" */;
+			buildPhases = (
+				EC9E62492A6973CB0021B5CA /* Sources */,
+				EC9E624A2A6973CB0021B5CA /* Frameworks */,
+				EC9E624B2A6973CB0021B5CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9E62522A6973CB0021B5CA /* PBXTargetDependency */,
+			);
+			name = "iisi-zooTests";
+			productName = "iisi-zooTests";
+			productReference = EC9E624D2A6973CB0021B5CA /* iisi-zooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +324,10 @@
 					EC4CAE732A6961E200CA2DA0 = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					EC9E624C2A6973CB0021B5CA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EC4CAE732A6961E200CA2DA0;
+					};
 				};
 			};
 			buildConfigurationList = EC4CAE6F2A6961E200CA2DA0 /* Build configuration list for PBXProject "iisi-zoo" */;
@@ -111,11 +339,15 @@
 				Base,
 			);
 			mainGroup = EC4CAE6B2A6961E200CA2DA0;
+			packageReferences = (
+				EC9E62462A6972BC0021B5CA /* XCRemoteSwiftPackageReference "Stevia" */,
+			);
 			productRefGroup = EC4CAE752A6961E200CA2DA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EC4CAE732A6961E200CA2DA0 /* iisi-zoo */,
+				EC9E624C2A6973CB0021B5CA /* iisi-zooTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,24 +359,108 @@
 			files = (
 				EC4CAE842A6961E500CA2DA0 /* LaunchScreen.storyboard in Resources */,
 				EC4CAE812A6961E500CA2DA0 /* Assets.xcassets in Resources */,
+				EC9E62692A6BC94E0021B5CA /* Podfile in Resources */,
 				EC4CAE7F2A6961E200CA2DA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC9E624B2A6973CB0021B5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E69457173699DC2E29DDFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iisi-zoo/Pods-iisi-zoo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iisi-zoo/Pods-iisi-zoo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iisi-zoo/Pods-iisi-zoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19F0F80E0E32EE959D3A628D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iisi-zoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC4CAE702A6961E200CA2DA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4CAEA12A6965CB00CA2DA0 /* APIManager+Env.swift in Sources */,
+				EC4CAEC12A696B2C00CA2DA0 /* URLSession+.swift in Sources */,
+				EC4CAEC62A696B2C00CA2DA0 /* UIImage+.swift in Sources */,
 				EC4CAE7C2A6961E200CA2DA0 /* ViewController.swift in Sources */,
+				EC4CAECA2A696D6D00CA2DA0 /* AnimalData.swift in Sources */,
+				EC9E62702A6BE3C40021B5CA /* PlantInformationVC.swift in Sources */,
+				EC4CAEA62A6965CB00CA2DA0 /* ZooApiManager+Stub.swift in Sources */,
 				EC4CAE782A6961E200CA2DA0 /* AppDelegate.swift in Sources */,
 				EC4CAE7A2A6961E200CA2DA0 /* SceneDelegate.swift in Sources */,
+				EC4CAEA52A6965CB00CA2DA0 /* APIResponse.swift in Sources */,
+				EC4CAEC82A696CE500CA2DA0 /* PlantInformation.swift in Sources */,
+				EC9E62652A6BC2B50021B5CA /* ParkInformationCell.swift in Sources */,
+				EC4CAEC22A696B2C00CA2DA0 /* String+Regex.swift in Sources */,
+				EC9E625C2A69EB0D0021B5CA /* Bundle-Decodable.swift in Sources */,
+				EC4CAEC52A696B2C00CA2DA0 /* String+Localized.swift in Sources */,
+				EC4CAEC42A696B2C00CA2DA0 /* URL+.swift in Sources */,
+				EC4CAEA42A6965CB00CA2DA0 /* ZooApiManager.swift in Sources */,
+				EC4CAEB72A69685400CA2DA0 /* ParkInformation.swift in Sources */,
+				EC9E62672A6BC6450021B5CA /* ParkInfomationModel.swift in Sources */,
+				EC9E626D2A6BD09D0021B5CA /* DetailedInformationVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E62492A6973CB0021B5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E62602A6A5C3C0021B5CA /* iisi_zooAPIsutTests.swift in Sources */,
+				EC9E62622A6A5C760021B5CA /* iisi_zooAPIshareTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9E62522A6973CB0021B5CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4CAE732A6961E200CA2DA0 /* iisi-zoo */;
+			targetProxy = EC9E62512A6973CB0021B5CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EC4CAE7D2A6961E200CA2DA0 /* Main.storyboard */ = {
@@ -203,7 +519,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +582,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +603,7 @@
 		};
 		EC4CAE892A6961E500CA2DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAA57A723EA16F8B095D22A /* Pods-iisi-zoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +617,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +633,7 @@
 		};
 		EC4CAE8A2A6961E500CA2DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB3D47D4FCA0C78C670F731 /* Pods-iisi-zoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +647,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +658,44 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC9E62542A6973CB0021B5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRJZ6WG9VC;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suoie.iisi-zooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iisi-zoo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iisi-zoo";
+			};
+			name = Debug;
+		};
+		EC9E62552A6973CB0021B5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRJZ6WG9VC;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suoie.iisi-zooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iisi-zoo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iisi-zoo";
 			};
 			name = Release;
 		};
@@ -362,7 +720,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EC9E62532A6973CB0021B5CA /* Build configuration list for PBXNativeTarget "iisi-zooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E62542A6973CB0021B5CA /* Debug */,
+				EC9E62552A6973CB0021B5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC9E62462A6972BC0021B5CA /* XCRemoteSwiftPackageReference "Stevia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Stevia#%EF%B8%8F-installation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC9E62472A6972BC0021B5CA /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC9E62462A6972BC0021B5CA /* XCRemoteSwiftPackageReference "Stevia" */;
+			productName = Stevia;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC4CAE6C2A6961E200CA2DA0 /* Project object */;
 }

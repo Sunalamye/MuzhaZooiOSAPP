@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "stevia#%ef%b8%8f-installation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/freshOS/Stevia#%EF%B8%8F-installation",
+      "state" : {
+        "revision" : "cfb1a1d2159277bb553c3dc46f3f742c0275566d",
+        "version" : "5.1.2"
+      }
+    }
+  ],
+  "version" : 2
+}

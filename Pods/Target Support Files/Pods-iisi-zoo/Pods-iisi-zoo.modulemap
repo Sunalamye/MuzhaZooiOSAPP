@@ -1,0 +1,6 @@
+framework module Pods_iisi_zoo {
+  umbrella header "Pods-iisi-zoo-umbrella.h"
+
+  export *
+  module * { export * }
+}
